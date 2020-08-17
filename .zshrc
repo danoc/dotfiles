@@ -1,0 +1,12 @@
+# Git aliases
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl='git pull'
+alias gp='git push'
+alias gs='git status'
