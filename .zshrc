@@ -11,3 +11,5 @@ alias gp="git push -u origin"
 alias gs='git status'
 alias glog='git log'
 alias gbl="git for-each-ref --sort='committerdate' --format='%(committerdate:short) %(refname:short)' refs/heads | sed -e 's-refs/heads/--'"
+
+alias ..="cd .."
