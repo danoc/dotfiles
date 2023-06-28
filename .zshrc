@@ -13,3 +13,5 @@ alias glog='git log'
 alias gbl="git for-each-ref --sort='committerdate' --format='%(committerdate:short) %(refname:short)' refs/heads | sed -e 's-refs/heads/--'"
 
 alias ..="cd .."
+
+alias p='pnpm'
