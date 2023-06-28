@@ -2,13 +2,7 @@
 
 This is a collection of my (few) dotfiles.
 
-# Installation
-
-Clone this repo locally and then follow the instructions below for each service.
-
-## `.zshrc`
-
-Add this to a `.zshrc` file:
+To use this, add this to a `.zshrc` file:
 
 ```bash
 if [ -f ~/Projects/danoc/dotfiles/.zshrc ]; then
