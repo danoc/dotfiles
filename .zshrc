@@ -34,3 +34,5 @@ nwd() {
         osascript -e "display notification \"Command '$cmd' failed\" with title \"Your job failed\""
     fi
 }
+
+export GIT_EDITOR=nano
