@@ -24,6 +24,9 @@ alias c='cd'
 alias '??'='gh copilot suggest -t shell'
 alias p='pnpm'
 
+# Auto-update Oh My Zsh
+DISABLE_UPDATE_PROMPT=true
+
 # notify-when-done
 # usage: nwd <command>
 nwd() {
