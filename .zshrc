@@ -24,8 +24,24 @@ alias c='cd'
 alias '??'='gh copilot suggest -t shell'
 alias p='pnpm'
 
-# Auto-update Oh My Zsh
+# Oh My Zsh
+# https://github.com/ohmyzsh/ohmyzsh
+ZSH_THEME="robbyrussell"
+plugins=(asdf)
 DISABLE_UPDATE_PROMPT=true
+source $ZSH/oh-my-zsh.sh
+
+# fzf
+# https://github.com/junegunn/fzf
+source <(fzf --zsh)
+
+# zoxide
+# https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
+
+# Starship
+# https://github.com/starship/starship
+eval "$(starship init zsh)"
 
 # notify-when-done
 # usage: nwd <command>
