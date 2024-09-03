@@ -44,6 +44,12 @@ eval "$(zoxide init zsh)"
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
 
+# bat
+# https://github.com/sharkdp/bat
+alias cat='bat'
+export BAT_THEME="Dracula"
+
+
 # notify-when-done
 # usage: nwd <command>
 nwd() {
