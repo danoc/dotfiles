@@ -13,6 +13,7 @@ alias gp="git push -u origin"
 alias gs='git status'
 alias gri='git rebase -i HEAD~10'
 alias grc='git rebase --continue'
+alias grm='git show-ref --verify --quiet refs/heads/master && git rebase master || (git show-ref --verify --quiet refs/heads/main && git rebase main)'
 alias glog='git log'
 alias gbl="git for-each-ref --sort='committerdate' --format='%(committerdate:short) %(refname:short)' refs/heads | sed -e 's-refs/heads/--'"
 alias gsa="git stash"
