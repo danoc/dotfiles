@@ -49,6 +49,8 @@ eval "$(starship init zsh)"
 alias cat='bat'
 export BAT_THEME="Dracula"
 
+# fd
+# https://github.com/sharkdp/fd
 
 # notify-when-done
 # usage: nwd <command>
