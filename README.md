@@ -2,14 +2,24 @@
 
 This is a collection of my (few) dotfiles.
 
-To use this, add this to a `.zshrc` file:
+## Setup
+
+Clone the repo:
 
 ```bash
-if [ -f ~/Projects/danoc/dotfiles/.zshrc ]; then
-    source ~/Projects/danoc/dotfiles/.zshrc
-else
-    print "404: ~/Projects/danoc/dotfiles/.zshrc not found."
-fi
+gh repo clone danoc/dotfiles ~/Developer/danoc/dotfiles
 ```
 
-Change the path in the code snippet to the location of your cloned repo.
+Then add this to `~/.zshrc`:
+
+```bash
+source ~/Developer/danoc/dotfiles/.zshrc
+```
+
+Change the path if you cloned the repo somewhere else.
+
+## Dependencies
+
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [mise](https://github.com/jdx/mise)
+- `brew install fzf zoxide starship bat fd`
