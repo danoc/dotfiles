@@ -22,7 +22,6 @@ alias gsp="git stash pop"
 # Other aliases
 alias ..="cd .."
 alias c='cd'
-alias '??'='gh copilot suggest -t shell'
 alias p='pnpm'
 
 # Oh My Zsh
